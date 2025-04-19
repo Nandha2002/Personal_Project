@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Emotion Detection</title>
+    <style>
+      .title-box {
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: 65%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title-box">
+      <h1>Convey your Emotions to receive a Song personalized to your Mood</h1>
+    </div>
+    <br>
+    <img src="{{ url_for('video_feed') }}" width="640" height="480" style="display: block; margin: auto;">
+  </body>
+</html>
